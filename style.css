@@ -8,8 +8,38 @@
 .container {
     width: 100vw;
     height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url(images/background.jpg);
     background-position: center;
     background-size: cover;
     padding: 0 8%;
+    position: relative;
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: black;
+}
+
+.launch-time {
+    display: flex;
+}
+
+.launch-time div {
+    flex-basis: 100px;
+}
+
+.launch-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
 }
