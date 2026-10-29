@@ -15,7 +15,7 @@
     position: relative;
 }
 
-.content{
+.content {
     top: 50%;
     position: absolute;
     transform: translateY(-50%);
@@ -38,8 +38,27 @@
 .launch-time div {
     flex-basis: 100px;
 }
-
 .launch-time div p {
     font-size: 60px;
     margin-bottom: -14px;
+}
+
+.Halloween {
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 0%;
+animation: Halloween 4s linear infinite;
+}
+
+@keyframes Halloween {
+    0% {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    100% {
+        bottom: 105%;
+        opacity: 45%;
+    }
 }
